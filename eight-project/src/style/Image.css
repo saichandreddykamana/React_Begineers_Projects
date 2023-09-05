@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@300;500&family=Pacifico&family=Signika+Negative:wght@700&display=swap');
+
+.Image{
+    width: 100%;
+    border-radius: 4px;
+    height: 250px;
+}
+
+.Image--Container{
+    position: relative;
+}
+
+.current{
+    background: rgba(255, 255, 255, 0.701);
+    position: absolute;
+    color: black;
+    font-family: Inter;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size: 12px;
+    border-radius: 2px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@300;500&family=Pacifico&family=Signika+Negative:wght@700&display=swap');
+
+.Card{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 10px 10px 20px 10px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    margin: 5px;
+}
+
+.Card--Image{
+    width: 30%;
+}
+
+.Card--Details{
+    width: 65%;
+    padding: 5px 15px;    
+    margin: auto 0px;
+}
+
+.Details--Location{
+    display: flex;
+    flex-direction: row;
+}
+
+.Details--Location img{
+    color:rgba(245, 90, 90, 1);
+    width: 7px;
+    padding-right: 5px;
+}
+
+.Details--Location span{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(43, 40, 58, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.Details--Location a{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(145, 142, 155, 1);
+}
+
+.Details--Description{
+    text-align: justify;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: rgba(43, 40, 58, 1);
+}
+
+.Details--Name{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(43, 40, 58, 1);
+}
+
+.Details--Date{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(125, 125, 125);
+}
