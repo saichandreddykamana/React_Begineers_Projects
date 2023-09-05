@@ -1,0 +1,25 @@
+.Button{
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Button span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Button span img{
+    padding-right: 10px;
+}

@@ -1,0 +1,16 @@
+.Footer{
+    background-color: rgba(213, 212, 216, 1);
+    padding: 5px;
+}
+
+.Footer ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Footer ul li{
+    cursor: pointer;
+    padding: 5px;
+}
