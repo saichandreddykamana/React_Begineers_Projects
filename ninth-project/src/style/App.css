@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.main{
+
+}
+
+.hero-container{
+  height: 400px;
+  background-image: url('../../public/hero-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
